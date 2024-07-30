@@ -1,0 +1,63 @@
+/* styles.css */
+
+body {
+    background-color: #fce4ec; /* Light pink background */
+    color: #333; /* Dark text color */
+    font-family: 'Arial', sans-serif; /* Font family */
+}
+
+.navbar {
+    background-color: #ff69b4 !important; /* Pink navbar */
+}
+
+.navbar-brand {
+    color: #fff !important; /* White text for navbar brand */
+    font-size: 1.5rem; /* Larger font size */
+}
+
+.btn-primary {
+    background-color: #ff69b4; /* Pink primary button */
+    border-color: #ff69b4; /* Border color */
+}
+
+.btn-primary:hover {
+    background-color: #ff1493; /* Darker pink on hover */
+    border-color: #ff1493; /* Border color on hover */
+}
+
+.card {
+    background-color: #fff; /* White cards */
+    border-color: #ffc0cb; /* Light pink border */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.comment-user h5 {
+    color: #ff69b4; /* Pink username */
+    margin-bottom: 0; /* Remove margin */
+}
+
+.comment-body {
+    margin-top: 1rem; /* Top margin for comment body */
+}
+
+/* Custom classes for edit and delete buttons */
+.btn-edit {
+    background-color: #ff69b4; /* Pink edit button */
+    border-color: #ff69b4; /* Border color */
+}
+
+.btn-edit:hover {
+    background-color: #ff1493; /* Darker pink on hover */
+    border-color: #ff1493; /* Border color on hover */
+}
+
+.btn-delete {
+    background-color: #dc3545; /* Red delete button */
+    border-color: #dc3545; /* Border color */
+}
+
+.btn-delete:hover {
+    background-color: #c82333; /* Darker red on hover */
+    border-color: #c82333; /* Border color on hover */
+}
+

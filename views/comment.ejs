@@ -1,0 +1,30 @@
+<!--
+ * @Author: kayaducktective 23015756@myrp.edu.sg
+ * @Date: 2024-07-10 20:12:51
+ * @LastEditors: kayaducktective 23015756@myrp.edu.sg
+ * @LastEditTime: 2024-07-14 19:28:09
+ * @FilePath: \whatweirdwaffles\views\comment.ejs
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
+<<div class="comment">
+    <div class="comment-header d-flex align-items-center">
+        <div class="comment-user">
+            <h5><%= comment.username %></h5>
+            <!-- Add profile picture -->
+            <img src="<%= comment.pfp %>" alt="Profile Picture" class="rounded-circle" width="50" height="50">
+        </div>
+        <div class="ml-auto">
+            <!-- Add edit and delete buttons -->
+            <a href="/editComment/<%= comment.commentId %>" class="btn btn-sm btn-primary">Edit</a>
+            <a href="/deleteComment/<%= comment.commentId %>" class="btn btn-sm btn-danger" onclick="return confirm('Are you sure you want to delete this comment?')">Delete</a>
+        </div>
+    </div>
+    <div class="comment-body">
+        <p><%= comment.commentText %></p>
+        <!-- Add comment image if needed -->
+        <% if (comment.commentImage) { %>
+            <img src="<%= comment.commentImage %>" alt="Comment Image" class="img-fluid">
+        <% } %>
+    </div>
+</div>
+

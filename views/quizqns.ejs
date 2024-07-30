@@ -1,0 +1,15 @@
+
+<form action="/submitQuiz" method="post">
+    <% quizQuestions.forEach((question, index) => { %>
+        <div>
+            <h3><%= question.question %></h3>
+            <% question.options.forEach(option => { %>
+                <label>
+                    <input type="radio" name="q<%= index %>" value="<%= option.points %>" required>
+                    <%= option.text %>
+                </label>
+            <% }); %>
+        </div>
+    <% }); %>
+    <button type="submit">Submit Quiz</button>
+</form>

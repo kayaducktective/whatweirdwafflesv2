@@ -1,0 +1,109 @@
+/* General Styles */
+body {
+    background-color: #fce4ec; /* Light pink background */
+    color: #333; /* Dark text color */
+    font-family: 'Arial', sans-serif; /* Font family */
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #ff69b4 !important; /* Pink navbar */
+}
+
+.navbar-brand, .nav-link {
+    color: #fff !important; /* White text for navbar brand and links */
+}
+
+.navbar-toggler {
+    border-color: #fff; /* White border for the toggler */
+}
+
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" fill="white"><path stroke="rgba%280, 0, 0, 0.5%29" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"/></svg>');
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #ff69b4; /* Pink primary button */
+    border-color: #ff69b4; /* Border color */
+}
+
+.btn-primary:hover {
+    background-color: #ff1493; /* Darker pink on hover */
+    border-color: #ff1493; /* Border color on hover */
+}
+
+.btn-outline-success {
+    color: #ff69b4; /* Pink text for search button */
+    border-color: #ff69b4; /* Pink border */
+}
+
+.btn-outline-success:hover {
+    background-color: #ff69b4; /* Pink background on hover */
+    border-color: #ff69b4; /* Pink border on hover */
+}
+
+/* Form Inputs */
+.form-control {
+    border-color: #ff69b4; /* Pink border for form controls */
+}
+
+.form-control:focus {
+    border-color: #ff1493; /* Darker pink border on focus */
+    box-shadow: 0 0 0 0.25rem rgba(255, 105, 180, 0.25); /* Pink shadow on focus */
+}
+
+/* Cards */
+.card {
+    background-color: #fff; /* White cards */
+    border-color: #ffc0cb; /* Light pink border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Comment User */
+.comment-user h5 {
+    color: #ff69b4; /* Pink username */
+    margin-bottom: 0; /* Remove margin */
+}
+
+.comment-user img {
+    border: 2px solid #ff69b4; /* Pink border for profile picture */
+}
+
+/* Comment Body */
+.comment-body {
+    margin-top: 1rem; /* Top margin for comment body */
+}
+
+/* Titles */
+h2, h5, .card-title {
+    color: #ff69b4; /* Pink color for titles */
+}
+
+/* Search Input */
+.form-control[type="search"] {
+    border-color: #ff69b4; /* Pink border */
+}
+
+.form-control[type="search"]::placeholder {
+    color: #ff69b4; /* Pink placeholder text */
+}
+
+/* Miscellaneous */
+.container {
+    margin-top: 2rem; /* Top margin for container */
+}
+
+.card img {
+    border-radius: 10px; /* Rounded corners for images */
+    margin-top: 1rem; /* Top margin for images */
+}
+
+a {
+    color: #ff69b4; /* Pink links */
+}
+
+a:hover {
+    color: #ff1493; /* Darker pink on hover */
+}

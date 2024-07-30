@@ -1,0 +1,16 @@
+/* Basic styles for the pink theme */
+body {
+    background-color: #ffd9e8; /* Light pink background color */
+    color: #ff007f; /* Pink text color */
+}
+
+.navbar {
+    background-color: #ff007f; /* Pink navbar background */
+}
+
+.card {
+    background-color: #fff; /* White card background */
+    border: 1px solid #ff007f; /* Pink border */
+}
+
+/* Additional styling for specific elements can be added here */
